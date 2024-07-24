@@ -1,3 +1,9 @@
+
+
+@font-face { 
+    font-family: "Young Serif"; 
+    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf"); 
+} 
 /*
   1. Use a more-intuitive box-sizing model.
 */
@@ -45,4 +51,6 @@
     isolation: isolate;
   }
 
-  
+  h1, h2 {
+    font-family: "Young Serif", serif;
+  }
