@@ -9,12 +9,12 @@
 }
 
 :root {
-  --rose-800: #7A284E;
-  --rose-50: #FFF7FB;
-  --stone-900: #312E2C;
-  --stone-600: #5F564D;
-  --stone-150: #E3DDD7;
-  --stone-100: #F3E5D7;
+  --rose-800: #7a284e;
+  --rose-50: #fff7fb;
+  --stone-900: #312e2c;
+  --stone-600: #5f564d;
+  --stone-150: #e3ddd7;
+  --stone-100: #f3e5d7;
   --brown-800: #854632;
 
   --font-young: "Young Serif";
@@ -33,8 +33,6 @@
   --spacing-200: 16px;
   --spacing-150: 12px;
   --spacing-100: 8px;
-
-
 }
 /*
   1. Use a more-intuitive box-sizing model.
@@ -50,7 +48,7 @@
 * {
   margin: 0;
   font-family: var(--font-outfit);
-  color: #5F564D;
+  color: #5f564d;
 }
 /*
     Typographic tweaks!
@@ -101,13 +99,19 @@ h6 {
   isolation: isolate;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 main {
-  max-width: 500px;
   display: flex;
   flex-direction: column;
 
-  
-  gap: 32px
+  gap: 32px;
 }
 
 h1,
@@ -136,7 +140,6 @@ section li::marker {
   color: var(--brown-800);
   font-weight: 700;
   font-family: var(--font-outfit);
-  
 }
 
 section ol li::marker {
@@ -191,15 +194,14 @@ hr {
 
 /* START INSTRACTION SECTION */
 
-
-
 /* END INSTRACTION SECTION */
 
 table {
-  border-collapse: collapse; 
+  border-collapse: collapse;
 }
 
-th, td {
+th,
+td {
   font-weight: 500;
   text-align: start;
   border-bottom: 1px solid var(--stone-150);
@@ -217,8 +219,5 @@ td {
 /* START MEDIA SECTION */
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  main {
-    display: flex;
-    justify-content: center;
-  }
+  
 }
