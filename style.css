@@ -17,7 +17,8 @@
   --stone-100: #F3E5D7;
   --brown-800: #854632;
 
-  
+  --font-young: "Young Serif";
+  --font-outfit: "Outfit";
 }
 /*
   1. Use a more-intuitive box-sizing model.
@@ -32,7 +33,7 @@
   */
 * {
   margin: 0;
-  font-family: "Outfit";
+  font-family: var(--font-outfit);
   color: #5F564D;
 }
 /*
@@ -95,7 +96,7 @@ main {
 
 h1,
 h2 {
-  font-family: "Young Serif", serif;
+  font-family: var(--font-young), serif;
 }
 
 h1 {
