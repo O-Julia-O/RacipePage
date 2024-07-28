@@ -122,6 +122,7 @@ h1 {
 
 h2 {
   color: var(--brown-800);
+  padding-bottom: var(--spacing-300);
 }
 
 section {
@@ -133,13 +134,23 @@ section {
 section li::marker {
   color: var(--brown-800);
   font-weight: 700;
-  font-family: "Outfit";
+  font-family: var(--font-outfit);
   
 }
 
 section ol li::marker {
-  font-family: "Outfit";
+  padding-bottom: var(--spacing-100);
+  font-family: var(--font-outfit);
   padding-left: 20px;
+}
+
+main:last-child {
+  margin: 40px 0;
+}
+
+hr {
+  color: var(--stone-150);
+  margin: 0 32px;
 }
 
 /* START Preparation section */
