@@ -105,11 +105,13 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  background-color: var(--stone-100);
 }
 
 main {
   display: flex;
   flex-direction: column;
+  background-color: white;
 
   gap: 32px;
 }
@@ -145,7 +147,14 @@ section li::marker {
 section ol li::marker {
   padding-bottom: var(--spacing-100);
   font-family: var(--font-outfit);
-  padding-left: 20px;
+}
+
+ul, ol {
+  padding-left: 24px;
+}
+
+ol li {
+  padding-left: 16px;
 }
 
 main:last-child {
@@ -165,24 +174,15 @@ hr {
 
 .prep-time {
   background-color: var(--rose-50);
-  padding: 20px;
+  padding: 32px;
 }
 
 .prep-time h3 {
   color: var(--rose-800);
 }
 
-.prep-time ul {
-  padding-left: 20px;
-}
-
-.prep-time ul li {
-  padding-left: 10px;
-}
-
 .prep-time ul li::marker {
   color: var(--rose-800);
-  padding-left: 20px;
   font-size: 12px;
 }
 
@@ -216,8 +216,35 @@ td {
   padding-right: 32px;
 }
 
+.nutr {
+  margin-bottom: 32px;
+}
 /* START MEDIA SECTION */
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  
+  body {
+    padding: 128px 76px;
+  }
+
+  main {
+    border-radius: 24px;
+  }
+
+  .background {
+    padding: 40px 40px 0;
+  }
+
+  .background img {
+    border-radius: 12px;
+  }
+
+  section {
+    margin: 0px 40px;
+  }
+}
+
+@media only screen and (min-width: 1440px){
+  main {
+    max-width: 736px;
+  }
 }
