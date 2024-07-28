@@ -152,12 +152,20 @@ section ol li::marker {
   font-family: var(--font-outfit);
 }
 
-ul, ol {
+ul,
+ol {
   padding-left: 24px;
 }
 
 ol li {
   padding-left: 16px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+
+ul li {
+  margin-bottom: 8px;
+  margin-top: 8px;
 }
 
 main:last-child {
@@ -246,7 +254,7 @@ td {
   }
 }
 
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1440px) {
   main {
     max-width: 736px;
   }
