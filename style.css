@@ -128,7 +128,7 @@ h2 {
 h1 {
   color: var(--stone-900);
   font-weight: 500;
-  font-size: var(--font-lrg);
+  font-size: 2em;
 }
 
 h2 {
