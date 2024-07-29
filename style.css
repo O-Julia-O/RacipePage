@@ -20,19 +20,19 @@
   --font-young: "Young Serif";
   --font-outfit: "Outfit";
 
-  --font-lrg: 40px;
-  --font-md: 28px;
-  --font-sm: 20px;
-  --font-smaller: 16px;
+  --font-lrg: 2.5rem;
+  --font-md: 1.75rem;
+  --font-sm: 1.25rem;
+  --font-smaller: 1rem;
 
-  --spacing-1600: 128px;
-  --spacing-600: 48px;
-  --spacing-500: 40px;
-  --spacing-400: 32px;
-  --spacing-300: 24px;
-  --spacing-200: 16px;
-  --spacing-150: 12px;
-  --spacing-100: 8px;
+  --spacing-1600: 8rem;
+  --spacing-600: 3rem;
+  --spacing-500: 2.5rem;
+  --spacing-400: 2rem;
+  --spacing-300: 1.5rem;
+  --spacing-200: 1rem;
+  --spacing-150: 0.75rem;
+  --spacing-100: 0.5rem;
 }
 /*
   1. Use a more-intuitive box-sizing model.
