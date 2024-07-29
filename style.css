@@ -205,6 +205,8 @@ hr {
 
 /* END INSTRACTION SECTION */
 
+/* START TABLE  */
+
 table {
   border-collapse: collapse;
   margin-top: var(--spacing-300);
@@ -222,7 +224,8 @@ th {
   padding-left: var(--spacing-400);
 }
 
-tr:last-child  td, tr:last-child  th{
+tr:last-child td,
+tr:last-child th {
   border-bottom: 0;
 }
 
@@ -232,9 +235,13 @@ td {
   padding-right: var(--spacing-400);
 }
 
+/* END TABLE  */
+
 .nutr {
   margin-bottom: var(--spacing-400);
 }
+
+
 /* START MEDIA SECTION */
 @media only screen and (min-width: 768px) {
   /* For desktop: */
