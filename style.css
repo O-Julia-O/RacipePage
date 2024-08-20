@@ -50,6 +50,7 @@ section {
   display: flex;
   flex-direction: column;
   margin: 0px var(--spacing-400) var(--spacing-400);
+  gap: 1.5rem;
 }
 
 hr {
@@ -72,6 +73,7 @@ td {
   padding-top: var(--spacing-150);
   padding-bottom: var(--spacing-150);
 }
+
 th {
   padding-left: var(--spacing-400);
 }
@@ -105,17 +107,17 @@ td {
   font-weight: 500;
   font-size: var(--font-lrg);
   line-height: 100%;
-  margin-bottom: var(--spacing-300);
+  /* margin-bottom: var(--spacing-300); */
 }
 
 .card__paragraph {
-  padding-bottom: var(--spacing-400);
+  /* padding-bottom: var(--spacing-400); */
   line-height: 150%;
 }
 
 .card__sub_heading {
   color: var(--brown-800);
-  padding-bottom: var(--spacing-300);
+  /* padding-bottom: var(--spacing-300); */
   font-size: var(--font-md);
   font-weight: 500;
   line-height: 100%;
@@ -138,19 +140,19 @@ td {
 
 .card__list_item {
   padding-left: var(--spacing-200);
-  margin-bottom: var(--spacing-100);
+  /* margin-bottom: var(--spacing-100); */
 }
 
 .prep-time {
   background-color: var(--rose-50);
   padding: var(--spacing-300);
-  margin-bottom: var(--spacing-400);
+  /* margin-bottom: var(--spacing-400); */
 }
 
 .prep-time__heading {
   line-height: 100%;
   font-size: 20px;
-  font-weight:600;
+  font-weight: 600;
   color: var(--rose-800);
   margin-bottom: 1rem;
 }
@@ -160,7 +162,9 @@ td {
   font-size: var(--spacing-150);
 }
 
-.text-stone-900 { color: var(--stone-600); }
+.text-stone-900 {
+  color: var(--stone-600);
+}
 
 .card__nutrition {
   margin-bottom: var(--spacing-400);
@@ -169,6 +173,7 @@ td {
 
 /* START MEDIA SECTION */
 @media only screen and (min-width: 48rem) {
+
   /* For desktop: */
   main {
     padding-top: var(--spacing-1600);
