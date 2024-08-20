@@ -81,31 +81,26 @@ hr {
 
 /* START LISTS STYLES */
 
-section li::marker {
+.card__list_item::marker {
   color: var(--brown-800);
   font-weight: 700;
   font-family: var(--font-outfit);
 }
 
-section ol li::marker {
+.card__list_item::marker {
   padding-bottom: var(--spacing-100);
   font-family: var(--font-outfit);
 }
 
-ul,
-ol {
+.card__list {
   padding-left: var(--spacing-300);
 }
 
-ol li {
+.card__list_item {
   padding-left: var(--spacing-200);
   margin-bottom: var(--spacing-100);
 }
 
-ul li {
-  padding-left: var(--spacing-200);
-  margin-bottom: var(--spacing-100);
-}
 
 /* END LISTS STYLES */
 
