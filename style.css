@@ -107,13 +107,12 @@ hr {
 
 
 /* END LISTS STYLES */
-
 .card__paragraph {
   padding-bottom: var(--spacing-400);
 }
 
 /* START Preparation section */
-
+/* ! Rename the prep section */
 .prep-time {
   background-color: var(--rose-50);
   padding: var(--spacing-400);
