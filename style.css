@@ -54,7 +54,7 @@ section {
 
 hr {
   color: var(--stone-150);
-  margin: var(--spacing-400) var(--spacing-400);
+  margin: var(--spacing-400) 0;
 }
 
 table {
@@ -169,6 +169,7 @@ td {
   /* For desktop: */
   main {
     padding-top: var(--spacing-1600);
+    padding-bottom: var(--spacing-1600);
   }
 
   .card {
