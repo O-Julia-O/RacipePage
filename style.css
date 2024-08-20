@@ -107,18 +107,11 @@ body {
 main {
   display: grid;
   min-height: 100vh;
-  /* background-color: white; */
   justify-content: center;
-
-  /* gap: var(--spacing-400); */
 }
 
-article {
+.card {
   background-color: white;
-}
-
-main:last-child {
-  margin-bottom: --spacing-500 0;
 }
 
 h1,
@@ -250,14 +243,6 @@ td {
 /* START MEDIA SECTION */
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  body {
-    padding: 128px 76px;
-  }
-
-  main {
-    border-radius: var(--spacing-300);
-  }
-
   .card__background {
     padding: var(--spacing-500) var(--spacing-500) 0;
   }
