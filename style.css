@@ -243,21 +243,21 @@ td {
 /* START MEDIA SECTION */
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .card__background {
+
+  .card {
+    border-radius: 1.5rem;
     padding: var(--spacing-500) var(--spacing-500) 0;
   }
 
-  .card__background{
-    border-radius: var(--spacing-150);
+  .card__background {
+    border-radius: 0.75rem;
+  }
+
+  article {
+    max-width: 736px;
   }
 
   section {
-    margin: 0px var(--spacing-500);
-  }
-}
-
-@media only screen and (min-width: 1440px) {
-  article {
-    max-width: 736px;
+    margin: 0;
   }
 }
