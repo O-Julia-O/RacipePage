@@ -55,7 +55,7 @@ section {
 hr {
   /* color: var(--stone-150); */
   border: none;
-  border: 0.1px solid var(--stone-150);
+  border-top: 1px solid var(--stone-150);
   margin: var(--spacing-400) 0;
 }
 
