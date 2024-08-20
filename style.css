@@ -101,20 +101,20 @@ h6 {
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   background-color: var(--stone-100);
 }
 
 main {
-  display: flex;
-  flex-direction: column;
-  background-color: white;
+  display: grid;
+  min-height: 100vh;
+  /* background-color: white; */
+  justify-content: center;
 
-  gap: var(--spacing-400);
+  /* gap: var(--spacing-400); */
+}
+
+article {
+  background-color: white;
 }
 
 main:last-child {
@@ -272,7 +272,7 @@ td {
 }
 
 @media only screen and (min-width: 1440px) {
-  main {
+  article {
     max-width: 736px;
   }
 }
