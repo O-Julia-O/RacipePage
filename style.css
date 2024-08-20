@@ -180,7 +180,7 @@ ul li {
 
 /* END LISTS STYLES */
 
-.intro p {
+.card__intro p {
   padding-bottom: var(--spacing-400);
 }
 
@@ -242,7 +242,7 @@ td {
 
 /* END TABLE  */
 
-.nutr {
+.card__nutrition {
   margin-bottom: var(--spacing-400);
 }
 
@@ -258,11 +258,11 @@ td {
     border-radius: var(--spacing-300);
   }
 
-  .background {
+  .card__background {
     padding: var(--spacing-500) var(--spacing-500) 0;
   }
 
-  .background img {
+  .card__background{
     border-radius: var(--spacing-150);
   }
 
