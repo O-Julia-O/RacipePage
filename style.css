@@ -54,18 +54,18 @@ main {
   margin-bottom: var(--spacing-500);
 }
 
-h1,
-h2 {
+.card__headline,
+.card__sub_heading {
   font-family: var(--font-young), serif;
 }
 
-h1 {
+.card__headline {
   color: var(--stone-900);
   font-weight: 500;
   font-size: var(--font-lrg);
 }
 
-h2 {
+.card__sub_heading {
   color: var(--brown-800);
   padding-bottom: var(--spacing-300);
   font-size: var(--font-md);
@@ -108,7 +108,7 @@ hr {
 
 /* END LISTS STYLES */
 
-.card__intro p {
+.card__paragraph {
   padding-bottom: var(--spacing-400);
 }
 
