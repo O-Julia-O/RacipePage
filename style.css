@@ -49,12 +49,12 @@ main {
 section {
   display: flex;
   flex-direction: column;
-  margin: 0px var(--spacing-400);
+  margin: 0px var(--spacing-400) var(--spacing-400);
 }
 
 hr {
   color: var(--stone-150);
-  margin: 0 var(--spacing-400);
+  margin: var(--spacing-400) var(--spacing-400);
 }
 
 table {
@@ -141,6 +141,7 @@ td {
 .prep-time {
   background-color: var(--rose-50);
   padding: var(--spacing-300);
+  margin-bottom: var(--spacing-400);
 }
 
 .prep-time__heading {
