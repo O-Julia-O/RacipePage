@@ -46,6 +46,45 @@ main {
   justify-content: center;
 }
 
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 0px var(--spacing-400) var(--spacing-400);
+}
+
+hr {
+  color: var(--stone-150);
+  margin: var(--spacing-400) var(--spacing-400);
+}
+
+table {
+  border-collapse: collapse;
+  margin-top: var(--spacing-300);
+}
+
+th,
+td {
+  font-weight: 500;
+  text-align: start;
+  border-bottom: 1px solid var(--stone-150);
+  padding-top: var(--spacing-150);
+  padding-bottom: var(--spacing-150);
+}
+th {
+  padding-left: var(--spacing-400);
+}
+
+tr:last-child td,
+tr:last-child th {
+  border-bottom: 0;
+}
+
+td {
+  color: var(--brown-800);
+  font-weight: bold;
+  padding-right: var(--spacing-400);
+}
+
 .card {
   background-color: white;
 }
@@ -79,19 +118,6 @@ main {
   font-weight: 500;
 }
 
-section {
-  display: flex;
-  flex-direction: column;
-  margin: 0px var(--spacing-400);
-}
-
-hr {
-  color: var(--stone-150);
-  margin: 0 var(--spacing-400);
-}
-
-/* START LISTS STYLES */
-
 .card__list_item::marker {
   color: var(--brown-800);
   font-weight: 700;
@@ -112,15 +138,10 @@ hr {
   margin-bottom: var(--spacing-100);
 }
 
-
-/* END LISTS STYLES */
-
-
-/* START Preparation section */
-/* ! Rename the prep section */
 .prep-time {
   background-color: var(--rose-50);
   padding: var(--spacing-300);
+  margin-bottom: var(--spacing-400);
 }
 
 .prep-time__heading {
@@ -136,48 +157,7 @@ hr {
   font-size: var(--spacing-150);
 }
 
-/* .prep-time b {
-  color: var(--stone-600);
-} */
-
 .text-stone-900 { color: var(--stone-600); }
-/* END Preparation section */
-
-/* START INSTRACTION SECTION */
-
-/* END INSTRACTION SECTION */
-
-/* START TABLE  */
-
-table {
-  border-collapse: collapse;
-  margin-top: var(--spacing-300);
-}
-
-th,
-td {
-  font-weight: 500;
-  text-align: start;
-  border-bottom: 1px solid var(--stone-150);
-  padding-top: var(--spacing-150);
-  padding-bottom: var(--spacing-150);
-}
-th {
-  padding-left: var(--spacing-400);
-}
-
-tr:last-child td,
-tr:last-child th {
-  border-bottom: 0;
-}
-
-td {
-  color: var(--brown-800);
-  font-weight: bold;
-  padding-right: var(--spacing-400);
-}
-
-/* END TABLE  */
 
 .card__nutrition {
   margin-bottom: var(--spacing-400);
