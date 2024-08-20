@@ -64,6 +64,7 @@ main {
   font-weight: 500;
   font-size: var(--font-lrg);
   line-height: 100%;
+  margin-bottom: var(--spacing-300);
 }
 
 .card__paragraph {
@@ -119,11 +120,15 @@ hr {
 /* ! Rename the prep section */
 .prep-time {
   background-color: var(--rose-50);
-  padding: var(--spacing-400);
+  padding: var(--spacing-300);
 }
 
-.prep-time h3 {
+.prep-time__heading {
+  line-height: 100%;
+  font-size: 20px;
+  font-weight:600;
   color: var(--rose-800);
+  margin-bottom: 1rem;
 }
 
 .prep-time ul li::marker {
@@ -131,10 +136,11 @@ hr {
   font-size: var(--spacing-150);
 }
 
-.prep-time b {
+/* .prep-time b {
   color: var(--stone-600);
-}
+} */
 
+.text-stone-900 { color: var(--stone-600); }
 /* END Preparation section */
 
 /* START INSTRACTION SECTION */
@@ -193,10 +199,6 @@ td {
 
   .card__background {
     border-radius: 0.75rem;
-  }
-
-  .card__headline {
-    margin-bottom: var(--spacing-300);
   }
 
   section {
